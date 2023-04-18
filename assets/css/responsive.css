@@ -1,0 +1,329 @@
+
+
+    /*  Mobile & Tablet */
+@media (max-width: 63.9375em) {
+    
+    .nav-category {
+        display: none;
+    }
+
+    .nav-bars-btn {
+        display: block;
+    }
+
+    .footer-description {
+        display: none;
+    }
+
+    .container-new {
+        margin: 0
+    }
+
+    .footer-license-item-link {
+        margin: 0;
+    }
+
+}
+
+/* Tablet pro: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 64em) and (max-width: 85.375em) {
+   
+    .header-king-queen {
+        font-size: 1.6rem;
+    }
+
+    .header-check {
+        font-size: 1.6rem;
+    }
+
+    .header-hotline-fix {
+        font-size: 1.6rem;
+    }
+
+    .header-hotline {
+        font-size: 1.6rem;
+    }
+
+    .slider-buttons {
+        top: 75%;
+    }
+
+    .nav-bars-btn {
+        font-size: 50px;
+    }
+
+    .nav-category {
+        display: none;
+    }
+
+    .nav-bars-btn {
+        display: block;
+    }
+
+    .commit-hundred {
+        font-size: 1.6rem;
+    }
+
+    .commit-europe {
+        font-size: 1.6rem;
+    }
+
+    .footer-license-item-link {
+        display: none;
+    }
+
+    .section-login {
+        margin: 0 0 15px 0;
+    }
+
+    .section-voucher {
+        margin: 15px 0 0 0;
+    }
+    
+    .footer-client {
+        line-height: 1.8rem;
+    }
+
+    .footer-policy {
+        margin: 0 0px 50px 0;
+    }
+
+    .footer-insurance-list {
+        font-size: 1.6rem;
+        padding-left: 10px;
+    }
+
+    .footer-official {
+        font-size: 1.6rem;
+    }
+
+    .footer-address {
+        font-size: 1.6rem;
+    }
+
+    .footer-email {
+        font-size: 1.6rem;
+    }
+
+    .footer-link-list {
+        font-size: 1.6rem;
+    }
+
+    .footer-hotline {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .footer-care {
+        font-size: 1.6rem;
+    }
+
+    
+
+}
+
+/* Tablet: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+    .nav-pc {
+        justify-content: space-around;
+    }
+
+    .nav-bars-btn {
+        font-size: 40px;
+    }
+
+    .nav-search-btn {
+        width: 300px;
+        max-width: 100%;
+        height: 60px;
+        font-size: 1.6rem;
+    }
+    
+    .nav-search-btn-icon {
+        font-size: 2rem;
+        top: 15px;
+    }
+
+    .nav-cart {
+        margin-left: 0;
+    }
+
+    .nav-cart-icon {
+        font-size: 2rem;
+    }
+
+    .header-king-queen {
+        font-size: 1.6rem;
+    }
+
+    .header-check {
+        font-size: 1.6rem;
+    }
+
+    .header-hotline-fix {
+        font-size: 1.6rem;
+    }
+
+    .header-hotline {
+        font-size: 1.6rem;
+    }
+
+    .slider {
+        height: 360px;
+    }
+
+    .slider-app {
+        height: 360px;
+    }
+
+    .slider-buttons {
+        top: 90%;
+    }
+
+    .section-login {
+        margin-bottom: 15px;
+    }
+
+    .section-voucher {
+        margin-top: 15px;
+    }
+
+    .footer-policy {
+        padding: 0;
+        margin-right: 20px;
+        text-align: center;
+        line-height: 2rem;
+        padding-top: 5px;
+    }
+
+    .footer-support {
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    .footer-official {
+        line-height: 2rem;
+    }
+
+    .footer-address {
+        line-height: 2rem;
+    }
+    
+    .footer-email {
+        line-height: 2rem;
+    }
+
+    .footer-hotline {
+        line-height: 2rem;
+    }
+
+    .footer-license {
+        justify-content: center;
+    }
+
+    .footer-license-item-link {
+        display: none;
+    }
+
+}
+
+/* Mobile: max-width < 739px */
+@media only screen and (max-width: 46.1875em) {
+    .app {
+        overflow: hidden;
+    }
+
+    .header-king {
+        margin: 0 4px 0 0;
+    }
+
+    .nav-cart {
+        margin-left: 0;
+    }
+
+    .navigation {
+        margin-top: 15px;
+    }
+
+    .header-hotline-fix {
+        display: none;
+    }
+
+    .slider {
+        height: 200px;
+    }
+
+    .slider-app {
+        height: 200px;
+    }
+
+    .slider-buttons {
+        top: 77%;
+    }
+
+    .container-product {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .container-product-app {
+        margin: 15px 6px;
+    }
+
+    .product-cleaning {
+        margin-top: 15px;
+    }
+    
+    .section-take {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .section-mail-btn {
+        width: 100%;
+    }
+
+    .section-voucher {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .section-create-account {
+        right: 3px;
+        width: 105px;
+    }
+
+    .section-voucher-us {
+        line-height: 2.2rem;
+    }
+
+    .footer-client {
+        line-height: 2.5rem;
+    }
+
+    .footer-policy {
+        margin: 0;
+        padding-right: 0;
+        padding-top: 5px;
+    }
+
+    .footer-fanpage-item {
+        text-align: center;
+    }
+
+    .footer-license {
+        display: block;
+        text-align: center;
+        line-height: 2.5rem;
+        margin-top: 10px;
+    }
+
+    .footer-info {
+        text-align: center;
+    }
+    
+    .footer-active {
+        bottom: 17%;
+    }
+}

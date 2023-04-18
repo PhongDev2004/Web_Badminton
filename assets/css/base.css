@@ -1,0 +1,100 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #fed700;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@keyframes growth {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@-webkit-keyframes mymove {
+    from {
+        top: 200px;
+    }
+
+    to {
+        top: 400px;
+    }
+}
+
+@-webkit-keyframes mymoveProduct {
+    from {
+        left: -400px;
+        opacity: 0.5;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes example {
+    0% {border: 2px solid #ccc; transform: scale(1);}
+    100% {border: 1px solid rgba(255, 255, 255, 0.3);  transform: scale(1.5);}
+}
+
+@keyframes exampleActive {
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+    
+}
+
+@keyframes exampFooter {
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes exampCategory {
+    0%{
+        opacity: 0;
+        transform:rotateY(-180deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(0);
+    }
+    
+}
+
